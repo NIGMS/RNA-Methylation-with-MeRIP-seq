@@ -1,0 +1,10 @@
+[
+    {
+        "front": "homolog",
+        "back": "A gene related to a second gene by descent from a common ancestral DNA sequence."
+    },
+    {
+        "front": "ortholog",
+        "back": "gene sequences derived from the same ancestral gene present in two species' last common ancestor."
+    }
+]

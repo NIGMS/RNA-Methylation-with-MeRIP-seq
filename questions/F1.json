@@ -1,0 +1,34 @@
+[
+    {
+        "front": "Question: What is the primary purpose of the input sample in MeRIP-seq?",
+        "back": "To serve as a baseline control for identifying m6A-enriched regions in m6A-IP samples."
+    },
+    {
+        "front": "Question: How are m6A-IP samples enriched?",
+        "back": "By immunoprecipitating RNA using m6A-specific antibodies."
+    },
+    {
+        "front": "Question: What is the primary output of MeRIP-seq preprocessing?",
+        "back": "Aligned BAM files, annotated m6A peaks, and RNA-seq gene count tables."
+    },
+    {
+        "front": "Question: What does the RRACH motif represent?",
+        "back": " A conserved RNA sequence motif associated with m6A modifications (R = A/G, H = A/C/U)."
+    },
+    {
+        "front": "Question: Why is adapter trimming necessary?",
+        "back": "To remove adapter sequences that can interfere with read alignment and downstream analysis."
+    },
+    {
+        "front": "Question: What type of genomic data can IGV visualize?",
+        "back": "Alignment files (BAM), peaks (BED), and coverage data (BigWig)."
+    },
+    {
+        "front": "Question: What is the difference between BAM and BigWig files?",
+        "back": "BAM files store raw alignment data, while BigWig files represent normalized coverage for efficient visualization."
+    },
+    {
+        "front": "Question: What is the function of meme in the pipeline?",
+        "back": " A conserved RNA sequence motif associated with m6A modifications (R = A/G, H = A/C/U)."
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "front": "Question: Why is it important to use a joint peak set in differential methylation analysis?",
+        "back": " A joint peak set ensures consistency across samples, avoids false positives caused by variations in individual peak calls, and allows quantitative comparisons of methylation levels across conditions."
+    },
+    {
+        "front": "Question: How does RADAR differ from traditional peak-calling-based workflows?",
+        "back": " RADAR directly performs differential methylation analysis without requiring explicit peak calling, relying instead on transcript-wide bin quantification."
+    },
+    {
+        "front": "Question: What is differential methylation analysis?",
+        "back": " It compares methylation levels between experimental conditions to detect significant changes."
+    },
+    {
+        "front": "Question: How are overlapping peaks identified across different tools?",
+        "back": "Overlapping peaks are determined by finding intersections of genomic regions identified by each tool."
+    },
+]

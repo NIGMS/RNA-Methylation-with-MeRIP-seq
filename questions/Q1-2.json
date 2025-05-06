@@ -1,0 +1,85 @@
+[
+	{
+        "question": "What tool can be used for identifying peaks in MeRIP-seq data?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "STAR",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "MACS2",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "featureCounts",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Trim Galore!",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "What does the tool MultiQC accomplish?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Performs read alignment",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Trims adapter sequences",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Aggregates and summarizes QC reports",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Identifies m6A peaks",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "Which tool can generate transcript-level quantification from RNA-seq data?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "FastQC",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "RSEM",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "MEME",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "BEDTools",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    }
+    
+]

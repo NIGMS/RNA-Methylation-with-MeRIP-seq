@@ -1,0 +1,173 @@
+[
+	{
+        "question": "What does a volcano plot visualize?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Differential gene expression data",
+                "correct": true,
+                "feedback": "Correct"                
+            },
+            {
+                "answer": "Genomic coordinates of methylated regions",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "The distribution of methylation intensity across genomic features",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Methylation and expression data integration",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "Which R package is used for GO enrichment analysis in this module?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "MeRIPtools",
+                "correct": false,
+                "feedback": "Incorrect"
+            },            
+            {
+                "answer": "clusterProfiler",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "DESeq2",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "EnhancedVolcano",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "In a meta-gene plot, what does the X-axis typically represent?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Statistical significance of methylation",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Genomic regions such as UTRs and CDS",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Log2 fold change",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "P-value cutoff",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "Which method is used to analyze differential gene expression in this tutorial?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "DESeq2",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "RADAR",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "MeRIPtools",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "ExomePeak2",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "What is the purpose of functional enrichment analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "To visualize the distribution of methylation",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "To normalize input data",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "To identify biological pathways or processes associated with a gene list",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "To integrate methylation and expression data",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "GO analysis is used to explore biological processes associated with differentially methylated genes.",
+        "type": "many_choice",
+        "answers": [
+                        {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "Volcano plots show methylation distribution along gene regions.",
+        "type": "many_choice",
+        "answers": [
+                        {
+                "answer": "False",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "True",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

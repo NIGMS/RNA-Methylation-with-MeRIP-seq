@@ -1,0 +1,14 @@
+[
+    {
+        "front": "Question: Why is integrating RNA methylation and gene expression important in MeRIP-seq studies?",
+        "back": "It helps identify genes with concurrent changes in methylation and expression, providing insights into regulatory mechanisms."
+    },
+    {
+        "front": "Question: What are the main differences between GO enrichment and KEGG pathway analysis?",
+        "back": "GO enrichment focuses on biological processes, molecular functions, and cellular components, while KEGG maps genes to pathways representing molecular interactions and reactions."
+    },
+    {
+        "front": "Question: What are the key inputs required for functional enrichment analysis?",
+        "back": "A list of differentially expressed or methylated genes and an annotation database like org.Hs.eg.db."
+    }
+]

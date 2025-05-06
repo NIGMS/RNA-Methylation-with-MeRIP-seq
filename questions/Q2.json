@@ -1,0 +1,139 @@
+[
+	{
+        "question": "What is the purpose of peak calling in MeRIP-seq analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "To detect regions enriched with m6A modifications",
+                "correct": true,
+                "feedback": "Correct"                
+            },
+            {
+                "answer": "To normalize sequencing libraries",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "To quantify gene expression",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "To perform motif discovery",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "Which tool is specifically designed for RNA methylation analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "MACS2",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "DESeq2",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "MeRIPtools",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Bowtie2",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "What is the main goal of differential methylation analysis?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Identifying RNA motifs",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Comparing methylation levels between conditions",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Visualizing sequencing coverage",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Quantifying total RNA levels",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "What is the role of the GTF annotation file in peak calling?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Defines gene annotations for peak detection.",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Provides a genome reference for alignment",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Normalizes library sizes",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Filters out low-quality reads",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "What makes ExomePeak2 unique compared to other workflows?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "It requires only input samples for analysis",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "It does not account for GC content biases",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "It combines peak calling and differential analysis in a single step.",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "It cannot detect differential peaks",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

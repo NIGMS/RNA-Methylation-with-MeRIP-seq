@@ -1,0 +1,140 @@
+[
+	{
+        "question": "What is the purpose of the MeRIP-seq technique?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Identify protein-DNA interactions",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Detect m6A RNA modifications",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Analyze chromatin accessibility",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Measure DNA methylation",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    
+    {
+        "question": "Which step ensures that adapter sequences are removed from raw reads?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Peak annotation",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Read alignment",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Adapter trimming",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Peak calling",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "What is the primary function of the STAR aligner?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Identify peaks in RNA sequencing data",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Align RNA-seq reads to a reference genome",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Trim low-quality bases from reads",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Visualize genomic data",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "Which motif is commonly associated with m6A modifications?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "RRACH",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "AGGTA",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "GATC",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "TATAG",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    },
+    
+    {
+        "question": "What file format is used for continuous data visualization in IGV?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "BAM",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "BED",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "BigWig",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "GTF",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+            
+        ]
+    }
+]
