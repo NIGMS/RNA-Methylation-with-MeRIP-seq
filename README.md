@@ -26,6 +26,16 @@ Additionally, an **introductory module** (Submodule-0) provides foundational kno
 
 <img src="images/Design2.png" width="550" />
 
+### MeRIP-Seq Module Overview Video
+This video introduces an interactive, cloud-ready learning module for analyzing RNA methylation using MeRIP-seq data, with hands-on workflows in Jupyter notebooks and AWS SageMaker.
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=_OTQz2rXryU&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
+            <img src="images/video_overview_thumbnail.jpeg" alt="MeRIP-Seq Module Overview Video", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch overview video </span>
+</p>
+
 ## **Background**
 The epitranscriptome encompasses all biochemical modifications of RNA in a cell, representing a rapidly evolving area of study within molecular biology. 
 
@@ -39,12 +49,20 @@ The epitranscriptome encompasses all biochemical modifications of RNA in a cell,
 
 This **MeRIP-seq data analysis** module includes methods for investigating RNA methylation patterns, focusing on N6-methyladenosine (m6A). The process starts with preprocessing raw sequencing data by aligning it to a reference genome, followed by peak calling to identify regions enriched with m6A modifications. Differential methylation analysis is then performed to compare m6A levels across experimental conditions, such as normal versus tumor, uncovering biologically significant changes. To contextualize these findings, downstream analyses such as functional enrichment are employed to map differentially methylated regions to biological processes, pathways, or gene sets, providing insights into their roles in cellular functions. Integration with gene expression data further illuminates the interplay between methylation and transcriptional regulation, revealing genes that are concurrently differentially methylated and expressed. Throughout the analysis, visualization techniques, including volcano plots, meta-gene plots, and coverage maps, are used to enhance interpretability, enabling researchers to connect m6A modifications to broader regulatory networks and their implications in development, disease, and environmental responses.
 
+------------------------------------------------------
 ## **Before Starting**
 These tutorials were designed to be used on Amazon Web Services (AWS), with the aim of requiring nothing but the files within this GitHub repository. However, you do need to set up your Amazon account to access the SageMaker notebooks to use the notebooks. The steps you need before getting started:
     - Set up a AWS account
-    - Enable APIs (SageMaker, EC2, S3, HealthOmics)
+    - Enable APIs (SageMaker, EC2, S3, Batch)
 
-More detailed instructions can refer to NIH Cloud Lab README for more instructions.
+For more detailed instructions you can refer to NIH Cloud Lab README and/or watch the setup video below.
+<p align="center">
+        <a href="https://www.youtube.com/watch?v=djLo0L3147s&list=PLXaEJPtnQ4w7Vu7vqWbttBjUGrPp4Qa7b">
+            <img src="images/aws_notebook_setup_thumbnail.jpeg" alt="Creating an AWS SageMaker Notebook Instance", width="550"/>
+        </a>
+    <br>
+    <span> Click above image to watch notebook setup video </span>
+</p>
 
 ## **Getting Started**
 This repository contains several notebook files that serve as bioinformatics MeRIPseq data analysis workflow tutorials. These instructions will guide you through setting up an AWS SageMaker Notebook instance, downloading the tutorial files, and running them.
