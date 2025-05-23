@@ -67,6 +67,16 @@ For more detailed instructions you can refer to NIH Cloud Lab README and/or watc
 ## **Getting Started**
 This repository contains several notebook files that serve as bioinformatics MeRIPseq data analysis workflow tutorials. These instructions will guide you through setting up an AWS SageMaker Notebook instance, downloading the tutorial files, and running them.
 
+**0. Setting up AWS Batch for Submodule 5**
+- AWS Batch manages the provisioning of compute environments (EC2, Fargate), container orchestration, job queues, IAM roles, and permissions. We can deploy a full environment either:
+- Automatically using a preconfigured AWS CloudFormation stack (**recommended**)
+- Manually by setting up roles, queues, and buckets
+The Launch Stack button below will take you to the cloud formation create stack webpage with the template with required resources already linked. If you would like to <b>manually</b> set those up please click <a href="https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/AWS-Batch-Setup.md">here</a>.
+
+If you prefer to skip manual deployment and deploy automatically in the cloud, click the **Launch Stack** button below. For a walkthrough of the screens during automatic deployment please click [here](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToLaunchAWSBatch.md). The deployment should take ~5 min and then the resources will be ready for use. 
+
+[![Launch Stack](images/LaunchStack.jpg)](https://console.aws.amazon.com/cloudformation/home?#/stacks/new?stackName=aws-batch-nigms&templateURL=https://nigms-sandbox.s3.us-east-1.amazonaws.com/cf-templates/AWSBatch_template.yaml )
+
 **1. Setting Up an AWS SageMaker Notebook Instance**
 - Log in to AWS Management Console:
     - Navigate to the AWS SageMaker Console (Find **Amazon SageMaker AI** in the Services, or search it in the search bar)
