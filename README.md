@@ -204,7 +204,4 @@ The dataset provides a small, manageable region of the genome for tutorial purpo
 This example dataset is stored at an AWS S3 bucket: s3://ovarian-cancer-example-fastqs
 
 ## **Funding**
-
-
-## **License for Data**
-
+Funded by the INBRE Program (NIH/NIGMS 5P20GM103466-23).
