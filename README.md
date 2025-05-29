@@ -1,6 +1,9 @@
 # Explore RNA methylation using MeRIP-seq
 ---------------------------------
-<img src="images/Module github anchor graphics.png" width="400" align="center" />
+
+<p align="center">
+    <img src="images/Module github anchor graphics.png" width="400" />
+</p>
 
 ## **Contents**
 
